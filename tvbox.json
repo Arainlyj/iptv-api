@@ -4,7 +4,7 @@
       "name": "我的IPTV",
       "type": 0,
       "url": "https://Arainlyj.github.io/iptv-api/output/result.m3u",
-      "playerType": 1
+      "playerType": 0
     }
   ]
 }
