@@ -1,4 +1,21 @@
-# 这是接口黑名单列表，符合关键字的接口将被拦截，一个关键字一行
-# This is the interface blacklist list, the interface matching the keyword will be blocked, one keyword line
+# 音频流
 /audio/
+/audio
+
+# 测试频道
+test
+测试
+demo
+
+# 广告购物
+广告
+advert
+购物
+promo
+mall
+
+# 轮播
+轮播
+
+# 已知无效源
 bxtv.3a.ink
