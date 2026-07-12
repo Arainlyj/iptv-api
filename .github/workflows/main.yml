@@ -37,6 +37,10 @@ jobs:
         run: pip3 install --user pipenv
       - name: Install dependecies
         run: pipenv --python 3.13 && pipenv install --deploy
+      - name: Download latest subscribe
+        run: |
+          curl -L https://raw.githubusercontent.com/Arainlyj/iptv-source-update/main/subscribe.txt \
+          -o config/subscribe.txt     
       - name: Update
         run: pipenv run dev
       - name: Commit and push if changed
